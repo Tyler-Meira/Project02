@@ -25,6 +25,16 @@
                 color:#000000;
                 background-color:#FFFFFF;
                 }
+                .output{
+                    display: grid;
+                    grid-template-columns: auto auto auto auto;
+                }
+                p{
+                    border: solid;
+                    padding: 7%;
+                    padding-bottom: 0%;
+                }
+
     
     </style>
 <head>
@@ -49,7 +59,11 @@
     </form>
     <hr>
 
+    <div id="output" class="output">
 
+    </div>
+
+    <hr>
     <br>
 </body>
 
@@ -78,6 +92,8 @@ function GetJson() {
 }
 function displayJson(json) {
 
+    var div = document.getElementById("output");
+
     var counter = 0;
     for(const x in json.laptops){
 
@@ -96,7 +112,7 @@ function displayJson(json) {
         output.innerHTML += "<strong>OS: </strong>" +json.laptops[x].OS + "<br>";
         output.innerHTML += "<img src=" + json.laptops[x].photo + " style=\"width:200px;height:200px;\">" + "<br><br><br><br>";
 
-        document.body.appendChild(output); 
+        div.appendChild(output); 
     }
 
 //Links
@@ -140,11 +156,17 @@ function displayJson(json) {
 }
 
 function remove(){
+    var div = document.getElementById("output");
+
     for(var i = 0; i < 6; i++){
         var remove = document.getElementById(i); 
-        document.body.removeChild(remove);
+        div.removeChild(remove);
     }
 }
+
+$( function() {
+    $( "#body" ).accordion();
+  } );
 
 </script>
 </html>
