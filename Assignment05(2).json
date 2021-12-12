@@ -1,0 +1,39 @@
+{
+    "books":[
+        {
+            "author": "Jane Austen",
+            "country": "United Kingdom",
+            "language": "English",
+            "title": "Pride and Prejudice",
+            "year": -1813
+          },
+          {
+            "author": "Honor\u00e9 de Balzac",
+            "country": "France",
+            "language": "French",
+            "title": "Le P\u00e8re Goriot",
+            "year": 1835
+          },
+          {
+            "author": "Samuel Beckett",
+            "country": "Republic of Ireland",
+            "language": "French, English",
+            "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+            "year": 1952
+          },
+          {
+            "author": "Giovanni Boccaccio",
+            "country": "Italy",
+            "language": "Italian",
+            "title": "The Decameron",
+            "year": -1351
+          },
+          {
+            "author": "Jorge Luis Borges",
+            "country": "Argentina",
+            "language": "Spanish",
+            "title": "Ficciones",
+            "year": -1965
+          }
+    ]
+ }
