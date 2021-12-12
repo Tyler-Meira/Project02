@@ -54,6 +54,17 @@
         "Storage":"256GB",
         "OS": "Windows 10 Student",
         "photo": "https://tyler-meira.github.io/Project02/Photos/HP.jpg"
+       },
+        {
+        "Id":"5",
+        "Brand":"Acer",
+        "Price":"899",
+        "CPU":"AMD Ryzen 7",
+        "GPU":"AMD Radeon",
+        "RAM":"8GB",
+        "Storage":"512GB",
+        "OS": "Windows 10 Student",
+        "photo": "https://tyler-meira.github.io/Project02/Photos/AcerSwift.jpg"
        }
     ]
  }
