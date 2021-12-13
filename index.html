@@ -97,6 +97,10 @@ function GetJson() {
 }
 function displayJson(json) {
 
+    $.each( json.laptops, function( i, obj ) {
+          obj.Price += "$"; 
+    });
+
     var div = document.getElementById("output");
 
     var counter = 0;
